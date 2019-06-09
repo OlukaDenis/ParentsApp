@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".navigationview.MarksFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="10">
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="horizontal"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="16dp">
+            <Button
+                android:id="@+id/btn_sem1"
+                android:layout_weight="5"
+                android:layout_width="0dp"
+                android:layout_marginEnd="1dp"
+                android:background="@color/black"
+                android:textColor="@android:color/white"
+                android:layout_height="wrap_content"
+                android:text="Semester One"/>
+            <Button
+                android:id="@+id/btn_sem2"
+                android:layout_weight="5"
+                android:layout_width="0dp"
+                android:layout_marginStart="1dp"
+                android:layout_height="wrap_content"
+                android:background="@color/black"
+                android:textColor="@android:color/white"
+                android:text="Semester Two"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_weight="9"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="vertical">
+            <LinearLayout
+                android:id="@+id/sem_two_layout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_margin="5dp"
+                android:visibility="gone"
+                android:weightSum="10">
+
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:orientation="horizontal"
+                    android:background="#555"
+                    android:weightSum="12"
+                    android:padding="2dp">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="3"
+                        android:gravity="center"
+                        android:textColor="@android:color/white"
+                        android:text="Code"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="5"
+                        android:gravity="center"
+                        android:textColor="@android:color/white"
+                        android:text="Courseunit"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="2"
+                        android:gravity="center"
+                        android:textColor="@android:color/white"
+                        android:text="Score"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="2"
+                        android:gravity="center"
+                        android:text="Grade"
+                        android:textColor="@android:color/white"
+                        android:textSize="16sp" />
+
+                </LinearLayout>
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/y2s2_recyclerview"
+                    android:layout_weight="9"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/sem_one_layout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_margin="8dp"
+                android:visibility="gone"
+                android:weightSum="10">
+
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:orientation="horizontal"
+                    android:background="#555"
+                    android:weightSum="12"
+                    android:padding="2dp">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="3"
+                        android:gravity="center"
+                        android:textColor="@android:color/white"
+                        android:text="Code"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="5"
+                        android:gravity="center"
+                        android:textColor="@android:color/white"
+                        android:text="Courseunit"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="2"
+                        android:gravity="center"
+                        android:textColor="@android:color/white"
+                        android:text="Score"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="2"
+                        android:gravity="center"
+                        android:text="Grade"
+                        android:textColor="@android:color/white"
+                        android:textSize="16sp" />
+
+                </LinearLayout>
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/y2s1_recyclerview"
+                    android:layout_weight="9"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>

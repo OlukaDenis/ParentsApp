@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/settings_ic"
+            android:title="Settings" />
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/info_ic"
+            android:title="About" />
+    </group>
+
+    <item android:title="Exit">
+        <menu>
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/shutdown_ic"
+                android:title="Logout" />
+        </menu>
+    </item>
+
+</menu>

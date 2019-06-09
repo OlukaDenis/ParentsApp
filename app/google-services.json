@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "914442321813",
+    "firebase_url": "https://parentapp-602cb.firebaseio.com",
+    "project_id": "parentapp-602cb",
+    "storage_bucket": "parentapp-602cb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:914442321813:android:440dc75b932ff895",
+        "android_client_info": {
+          "package_name": "com.dentech.parentsapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "914442321813-0sd4aas6h1fb105lvl5ac36vaik4d496.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dentech.parentsapp",
+            "certificate_hash": "081b021c8a7d297c43f53fc353f95fab8be7ca20"
+          }
+        },
+        {
+          "client_id": "914442321813-cp4939rniprslpaijc6jrubi1f4oon5r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBOpmc06k3FTarFAJu-zV1dA77SQlYMeDc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "914442321813-cp4939rniprslpaijc6jrubi1f4oon5r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
